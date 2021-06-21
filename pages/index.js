@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../components/Navbar/Navbar.js'
 
 export default function Home() {
@@ -12,9 +11,6 @@ export default function Home() {
       </Head>
 
       <Navbar />
-
-      <main>
-      </main>
 
     </div>
   );

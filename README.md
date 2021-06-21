@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.
 ### This is a summer project and fullstack challenge to learn how to create functional, creative, and marketable websites using React, Next.js and Tailwind CSS.
 
 ## Download
-1. $ git clone https://github.com/zhuasy/eragon-coaching.git
-2. $ cd eragon-coaching
-3. $ npm run dev
+`
+$ git clone https://github.com/zhuasy/eragon-coaching.git
+$ cd eragon-coaching
+$ npm run dev
+`
