@@ -19,7 +19,7 @@ export default function Home() {
           Hi, I'm <span className="font-bold text-yellow-500"> Eragon.</span>
         </h1>
         <p className="text-black font-normal">
-          Grandmaster tiered player and positional coach.
+          Grandmaster tiered top lane player and positional coach.
         </p>
       </div>
 
