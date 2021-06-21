@@ -29,7 +29,7 @@ export default function About() {
           <div className="w-1/3"> <PriceCard title="Baron" sessions="5" color="text-purple-400" price="25" description="Long term coaching for the truly dedicated." text1="In-depth review of two VOD recordings prior to session." text2="Review of strengths and weaknesses." text3="Well-defined, tailored plan for improvement."/> </div>
         </div>
 
-        <div className="flex mt-20 mb-20">
+        <div className="flex mt-20 mb-12">
           <div className="text-center rounded-tl-lg w-full p-6">
             <h1 className="text-xl text-gray-800"> Not sure which plan will suit you best? </h1>
             <p className="text-sm text-gray-800 opacity-80 "> Join the discord server and ask Eragon directly! </p>

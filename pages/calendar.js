@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/Navbar/Navbar.js'
 import Link from 'next/link'
+import Footer from '../components/Footer/Footer.js'
 
 export default function About() {
   return (
@@ -12,6 +13,7 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <Footer />
     </div>
   );
 }
