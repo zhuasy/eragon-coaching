@@ -1,7 +1,8 @@
 import Link from 'next/link'
-export default function PriceCard({title, color, sessions, price, description, text1, text2, text3, text4, text5}) {
+export default function PriceCard({sessionName, link, title, color, sessions, price, description, text1, text2, text3, text4, text5}) {
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-2xl transition duration-200 ease-in-out">
+      <p className="font-semibold"> {sessionName} </p>
       <p className=""> <span className="font-bold text-black text-3xl">£{price}</span>/session </p>
       <h3 className="pt-4 text-xl font-bold"> <span className={color}> {title} </span> </h3>
       <p className="text-sm opacity-80"> {description} </p>
@@ -27,9 +28,9 @@ export default function PriceCard({title, color, sessions, price, description, t
         </div>
       </div>
       <div className="mt-12">
-        <Link href="/"><button className="font-semibold w-full shadow text-indigo-700 border border-indigo-700 rounded hover:bg-indigo-700 hover:text-white hover:shadow-2xl transition duration-15 ease-in-out py-2">
-          Book
-        </button></Link>
+        <a href={link} target="_blank" rel="noopener noreferrer"> <button className="font-semibold w-full shadow text-indigo-700 border border-indigo-700 rounded hover:bg-indigo-700 hover:text-white hover:shadow-2xl transition duration-15 ease-in-out py-2">
+           Book
+        </button> </a>
       </div>
     </div>
   );

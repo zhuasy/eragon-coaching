@@ -23,10 +23,9 @@ export default function About() {
           </p>
         </div>
 
-        <div className="flex justify-between space-x-5 my-5">
-          <div className="w-1/3"> <PriceCard title="Scuttle" sessions="1" color="text-green-400" price="35" description="The perfect gateway into a world of improvement." text1="In-depth review of two VOD recordings prior to session." text2="Review of strengths and weaknesses." text3="Well-defined, tailored plan for improvement."/> </div>
-          <div className="w-1/3"> <PriceCard title="Dragon" sessions="3" color="text-red-400" price="30" description="Crush your goals and climb up the ladder." text1="In-depth review of two VOD recordings prior to session." text2="Review of strengths and weaknesses." text3="Well-defined, tailored plan for improvement."/> </div>
-          <div className="w-1/3"> <PriceCard title="Baron" sessions="5" color="text-purple-400" price="25" description="Long term coaching for the truly dedicated." text1="In-depth review of two VOD recordings prior to session." text2="Review of strengths and weaknesses." text3="Well-defined, tailored plan for improvement."/> </div>
+        <div className="flex justify-around space-x-5 my-5">
+          <div className="w-1/2"> <PriceCard title="Scuttle" link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GLGNMYC2GX76Y" sessions="1" sessionName="One-time Coaching - 1 Session" color="text-green-400" price="30" description="The perfect gateway into a world of improvement." text1="In-depth one hour review of two VOD recordings." text2="Analysis of your strengths and weaknesses prepared beforehand." text3="Well-defined, tailored plan for improvement prepared prior to session."/> </div>
+          <div className="w-1/2"> <PriceCard title="Baron" link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FQ2MZT5AMRAHG" sessions="5" sessionName="Long-term Coaching - 5 Sessions" color="text-purple-400" price="24" description="Long term coaching for the truly dedicated." text1="Long-term, goal-oriented coaching at a discounted rate." text2="Lifetime access to Eragon's direct messages for additional questions." text3="All benefits of a one-time coaching session."/> </div>
         </div>
 
         <div className="flex mt-20 mb-12">
